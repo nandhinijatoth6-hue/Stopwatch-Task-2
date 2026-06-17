@@ -1,0 +1,37 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#222;
+    color:white;
+    font-family:Arial;
+}
+
+.container{
+    text-align:center;
+}
+
+#display{
+    font-size:60px;
+    margin:20px 0;
+}
+
+button{
+    padding:10px 20px;
+    margin:5px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#00bcd4;
+    color:white;
+}
+
+#laps{
+    list-style:none;
+    margin-top:20px;
+}
